@@ -1,5 +1,6 @@
 %define		scriptname	copycover
 Summary:	CopyCover amaroK Script
+Summary(pl):	Skrypt CopyCover dla amaroKa
 Name:		amarok-script-copycover
 Version:	1.6
 Release:	0.1
@@ -23,6 +24,12 @@ Copy the cover of current playing track to the song's dir. Does not
 overwrite existing images in this folder. The filenames can be
 configured with the "Configure" dialog. By default, it's the album's
 name, with spaces replaced by underscores.
+
+%description -l pl
+Skrypt kopiuj±cy ok³adkê aktualnie odtwarzanej ¶cie¿ki do katalogu z
+utworem. Nie nadpisuje istniej±cych obrazków w folderze. Nazwy plików
+mog± byæ konfigurowane w oknie dialogowym "Configure". Domy¶lnie jest
+to nazwa albumu ze spacjami zamienionymi na podkre¶lenia.
 
 %prep
 %setup -q -n %{scriptname}
