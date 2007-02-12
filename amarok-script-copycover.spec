@@ -1,6 +1,6 @@
 %define		scriptname	copycover
 Summary:	CopyCover amaroK Script
-Summary(pl.UTF-8):   Skrypt CopyCover dla amaroKa
+Summary(pl.UTF-8):	Skrypt CopyCover dla amaroKa
 Name:		amarok-script-copycover
 Version:	1.6
 Release:	0.1
